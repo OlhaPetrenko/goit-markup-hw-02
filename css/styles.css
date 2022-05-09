@@ -1,0 +1,95 @@
+/*  основной цвет текста заголовков #212121 */
+/* вторичный цвет текста текст #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* студио в хедере #000000; */
+/* цвет фона основной #E5E5E5 */
+
+:root{
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --accent-color:#2196F3;
+}
+
+body {
+  background-color: #E5E5E5;
+  color: var(--primary-text-color);
+}
+
+.logo{
+    color: #000000 ;
+    
+}
+
+.logo span{
+    color: var(--accent-color);
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+/* Site nav */
+.site-nav .link{
+    color: var(--primary-text-color);
+
+}
+
+.auth-nav .link{
+    color: var(--secondary-text-color);
+}
+
+.site-nav .link:hover,
+.auth-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title{
+    color: #FFFFFF;
+}
+
+/* Section */
+.section-title {
+    color: var(--primary-text-color);
+}
+
+/* Feature */
+.feature .title{
+    color: var(--primary-text-color);
+}
+
+.feature .text{
+    color: var(--secondary-text-color)
+}
+
+/* Examples Portfolio */
+.examples .text {
+    color: var(--secondary-text-color);
+}
+
+.examples .title{
+    color: var(--primary-text-color)
+}
+
+/* Button */
+.button{
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+}
+
+.button:hover,
+.button:focus{
+    color: #ffffff;
+    background-color: #2196F3;
+
+}
