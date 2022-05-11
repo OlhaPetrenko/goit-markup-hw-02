@@ -4,6 +4,7 @@
 /* белый #FFFFFF */
 /* студио в хедере #000000; */
 /* цвет фона основной #E5E5E5 */
+/* цвет секции Team #F5F4FA */
 
 :root{
     --primary-text-color:#212121;
@@ -14,10 +15,18 @@
 body {
   background-color: #E5E5E5;
   color: var(--primary-text-color);
-}
 
+    font-family: Roboto, sans-serif;
+}
+/* Logo */
 .logo{
     color: #000000 ;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;   
+    letter-spacing: 0.03em;
     
 }
 
@@ -36,10 +45,19 @@ body {
 .site-nav .link{
     color: var(--primary-text-color);
 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .auth-nav .link{
     color: var(--secondary-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -56,40 +74,155 @@ body {
 /* Hero */
 .hero-title{
     color: #FFFFFF;
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;          
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero .button {
+    color: #ffffff;
+    background-color: #2196F3;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
 }
 
 /* Section */
 .section-title {
     color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Feature */
 .feature .title{
-    color: var(--primary-text-color);
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .feature .text{
     color: var(--secondary-text-color)
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
+
+/* Team */
+.team-member .title{
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;           
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.team-member .text{
+    color: var(--secondary-text-color);
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;       
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team{
+    background-color: #F5F4FA;
+}
+
+/* Футер */
+
+.footer{
+    color: #FFFFFF;
+
+    font-family: Raleway, sans-serif;    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;           
+    letter-spacing: 0.03em;
+}
+
+.footer span{
+    color: var(--accent-color);
+}
+
+.footer-nav .adress{
+    color: #FFFFFF;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-nav .email,
+.footer-nav .tel{
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;          
+    letter-spacing: 0.03em;        
+}
+
 
 /* Examples Portfolio */
 .examples .text {
     color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
 
 .examples .title{
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 /* Button */
 .button{
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
+    cursor: pointer;
 }
 
 .button:hover,
 .button:focus{
     color: #ffffff;
     background-color: #2196F3;
-
 }
+
+
