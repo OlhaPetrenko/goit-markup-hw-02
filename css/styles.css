@@ -19,7 +19,7 @@ body {
 
     font-family: Roboto, sans-serif;
     font-size: 14px;
-    letter-spacing: 00.03em;
+    letter-spacing: 0.03em;
 }
 
 /* Utils */
@@ -109,7 +109,8 @@ body {
 
 /* Feature */
 .feature .title{
-          
+    
+    font-size: 14px;
     line-height: 1.14;    
     text-transform: uppercase;
 }
@@ -175,6 +176,13 @@ body {
     font-style: normal;
 }
 
+.footer-nav .email:hover,
+.footer-nav .email:focus,
+.footer-nav .tel:hover,
+.footer-nav .tel:focus{
+    color: var(--accent-color);
+}
+
 
 /* Examples Portfolio */
 .examples .text {
@@ -215,8 +223,8 @@ body {
     background-color: var(--accent-color);
 }
 
-buttun .active{
-    color: #FFFFFF; 
+.buttun.active{
+    color: var(--primery-background-color); 
     background-color: var(--accent-color)
     
 }
